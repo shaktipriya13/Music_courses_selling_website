@@ -1,0 +1,105 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Guitar Strumming Basics",
+        "slug": "guitar-strumming-basics",
+        "description": "Master essential strumming patterns and chord transitions perfect for absolute beginners.",
+        "price": 89.99,
+        "instructor": "Aaron Blake",
+        "isFeatured": true,
+        "image": "/courses/guitar.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Beginner Piano Chords",
+        "slug": "beginner-piano-chords",
+        "description": "Get started with fundamental chords and progressions every pianist must know.",
+        "price": 99.99,
+        "instructor": "Natalie Grant",
+        "isFeatured": false,
+        "image": "/courses/piano.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Vocal Power and Control",
+        "slug": "vocal-power-control",
+        "description": "Develop strong breath support and vocal tone for more expressive singing.",
+        "price": 124.99,
+        "instructor": "Rachel Monroe",
+        "isFeatured": true,
+        "image": "/courses/vocalist.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Rhythm & Groove for Drummers",
+        "slug": "rhythm-groove-drummers",
+        "description": "Build solid grooves and timing with our complete drumming rhythm guide.",
+        "price": 119.99,
+        "instructor": "Carlos Rivera",
+        "isFeatured": false,
+        "image": "/courses/drumming.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Improvising Jazz Melodies",
+        "slug": "improvising-jazz-melodies",
+        "description": "Learn jazz phrasing, scales, and improvisation skills for live performance and composition.",
+        "price": 134.99,
+        "instructor": "Brandon Scott",
+        "isFeatured": false,
+        "image": "/courses/jazz.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Intro to Digital Music Production",
+        "slug": "intro-digital-music-production",
+        "description": "Understand key concepts of DAWs, sound mixing, and production techniques.",
+        "price": 139.99,
+        "instructor": "Lena Cross",
+        "isFeatured": true,
+        "image": "/courses/music-prod.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Crafting Memorable Songs",
+        "slug": "crafting-memorable-songs",
+        "description": "Unlock your creativity with powerful techniques in songwriting structure and lyrics.",
+        "price": 144.99,
+        "instructor": "Daniel Carter",
+        "isFeatured": false,
+        "image": "/courses/song-writing.jpg"
+      },
+      {
+        "id": 8,
+        "title": "EDM Track Creation",
+        "slug": "edm-track-creation",
+        "description": "From beats to basslines—learn to design and produce your first electronic music track.",
+        "price": 154.99,
+        "instructor": "Olivia Hart",
+        "isFeatured": true,
+        "image": "/courses/music-prod.jpg"
+      },
+      {
+        "id": 9,
+        "title": "The Evolution of Classical Music",
+        "slug": "evolution-of-classical-music",
+        "description": "Travel through time and discover how classical music shaped modern genres.",
+        "price": 164.99,
+        "instructor": "Henry Kim",
+        "isFeatured": false,
+        "image": "/courses/classical-music.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Soulful Blues Guitar",
+        "slug": "soulful-blues-guitar",
+        "description": "Learn expressive blues licks, bends, and phrasing to play with true emotion.",
+        "price": 174.99,
+        "instructor": "Tina Brooks",
+        "isFeatured": true,
+        "image": "/courses/blues.jpg"
+      }
+    ]
+  }
+  
