@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Button } from "./ui/moving-border";
+import { MovingBorder, Button } from "./ui/moving-border"; // Added Button import
 import Link from "next/link";
 import { Spotlight } from "./ui/Spotlight";
 
@@ -17,7 +17,6 @@ const HeroSection = () => {
         </h1>
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto text-center">
           <span className="font-bold">
-            {" "}
             Embark on a transformative musical journey with our all-inclusive
             music courses.
           </span>
@@ -25,7 +24,7 @@ const HeroSection = () => {
           skills, join us and discover the musician within you.
         </p>
         <div className="mt-4">
-          <Link href={"/courses"}>
+          <Link href="/courses">
             <Button
               borderRadius="1.5rem"
               className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800 font-bold"
