@@ -17,16 +17,18 @@ interface Course {
 // Validate or transform courseData to match Course interface
 const courses = (courseData as { courses?: unknown }).courses;
 const validatedCourses: Course[] = Array.isArray(courses)
-  ? courses.map((course: unknown) => {
-      // Handle cases where 'image' is used instead of 'video'
-      const { image, ...rest } = course as any;
-      return {
-        ...rest,
-        video: image || (rest as any).video || "/courses/placeholder.mp4", // Fallback to placeholder
-      } as Course;
-    })
+  ? courses.map(
+      (course: unknown) =>
+        ({
+          ...(course as any),
+          video:
+            (course as any).video ||
+            (course as any).image ||
+            "/courses/placeholder.mp4",
+          image: (course as any).image || "/courses/placeholder.jpg", // Preserve image field
+        } as Course)
+    )
   : [];
-
 function FeaturedCourses() {
   const featuredCourses = validatedCourses.filter(
     (course) => course.isFeatured

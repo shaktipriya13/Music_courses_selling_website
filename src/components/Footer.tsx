@@ -80,7 +80,7 @@ function Footer() {
         </div>
       </div>
       <p className="text-center text-xs pt-8">
-        © 2025 MusicA School. All rights reserved. | Build by Shakti Priya🪶🎶
+        © 2025 MusicA School. All rights reserved. | Build & Crafted by Shakti Priya🪶🎶
       </p>
     </footer>
   );

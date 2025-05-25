@@ -8,7 +8,8 @@
       "price": 89.99,
       "instructor": "Aaron Blake",
       "isFeatured": true,
-      "video": "/courses/guitar.mp4"
+      "video": "/courses/guitar.mp4",
+      "image":"/courses/guitar.jpg"
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "price": 99.99,
       "instructor": "Natalie Grant",
       "isFeatured": false,
-      "video": "/courses/piano.mp4"
+      "video": "/courses/piano.mp4",
+      "image": "/courses/piano.jpg"
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "price": 124.99,
       "instructor": "Rachel Monroe",
       "isFeatured": true,
-      "video": "/courses/vocalist.mp4"
+      "video": "/courses/vocalist.mp4",
+       "image":"/courses/vocalist.jpg"
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "price": 119.99,
       "instructor": "Carlos Rivera",
       "isFeatured": false,
-      "video": "/courses/drumming.mp4"
+      "video": "/courses/drumming.mp4",
+      "image": "/courses/drumming.jpg"
     },
     {
       "id": 5,
@@ -48,7 +52,8 @@
       "price": 134.99,
       "instructor": "Brandon Scott",
       "isFeatured": false,
-      "video": "/courses/jazz.mp4"
+      "video": "/courses/jazz.mp4",
+      "image": "/courses/jazz.jpg"
     },
     {
       "id": 6,
@@ -58,7 +63,8 @@
       "price": 139.99,
       "instructor": "Lena Cross",
       "isFeatured": true,
-      "video": "/courses/music-prod.mp4"
+      "video": "/courses/music-prod.mp4",
+       "image":"/courses/music-prod.jpg"
     },
     {
       "id": 7,
@@ -68,7 +74,8 @@
       "price": 144.99,
       "instructor": "Daniel Carter",
       "isFeatured": false,
-      "video": "/courses/song-writing.mp4"
+      "video": "/courses/song-writing.mp4",
+      "image": "/courses/song-writing.jpg"
     },
     {
       "id": 8,
@@ -78,7 +85,8 @@
       "price": 154.99,
       "instructor": "Olivia Hart",
       "isFeatured": true,
-      "video": "/courses/music-prod2.mp4"
+      "video": "/courses/music-prod2.mp4",
+       "image":"/courses/music-prod2.jpg"
     },
     {
       "id": 9,
@@ -88,7 +96,8 @@
       "price": 164.99,
       "instructor": "Henry Kim",
       "isFeatured": true,
-      "video": "/courses/tabla.mp4"
+      "video": "/courses/tabla.mp4",
+      "image":"/courses/tabla.jpg"
     },
     {
       "id": 10,
@@ -98,7 +107,8 @@
       "price": 174.99,
       "instructor": "Tina Brooks",
       "isFeatured": true,
-      "video": "/courses/blues-violin.mp4"
+      "video": "/courses/blues-violin.mp4",
+       "image":"/courses/violin.jpg"
     }
     
   ]
