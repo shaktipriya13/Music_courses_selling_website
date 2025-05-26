@@ -45,8 +45,28 @@ const people = [
     image:
       "https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
   },
+  {
+    id: 7,
+    name: "Priya Sharma",
+    designation: "Sitar Instructor",
+    image:
+      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+  },
+  {
+    id: 8,
+    name: "Arjun Patel",
+    designation: "Tabla Master",
+    image:
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  },
+  {
+    id: 9,
+    name: "Kavita Nair",
+    designation: "Music Theory Specialist",
+    image:
+      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+  },
 ];
-
 function Instructors() {
   return (
     <div className="relative h-[40rem] overflow-hidden flex items-center justify-center">
