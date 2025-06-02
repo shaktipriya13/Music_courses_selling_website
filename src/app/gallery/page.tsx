@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
+// import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 
 function MusicSchoolGallery() {
   const images = [
