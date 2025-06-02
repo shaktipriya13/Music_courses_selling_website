@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { MovingBorder, Button } from "./ui/moving-border"; // Added Button import
+import { Button } from "./ui/moving-border"; // Added Button import
 import Link from "next/link";
 import { Spotlight } from "./ui/Spotlight";
 
