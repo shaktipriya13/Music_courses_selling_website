@@ -6,7 +6,7 @@ function Footer() {
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
             MusicA School is a leading institution committed to teaching both
-            the art and science of music. We cultivate talent from the
+            the art and science of music! We cultivate talent from the
             grassroots, inspiring a dynamic and inclusive community of
             passionate musicians.
           </p>
